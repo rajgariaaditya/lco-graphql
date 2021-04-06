@@ -1,0 +1,22 @@
+mutation{
+    createCourse(input:{
+      courseName: "JS bootcamp",
+      price: 199,
+      stack: MOBILE,
+      teachingAssists: [
+        {
+          firstName: "FirstName1",
+          lastName: "LastName1",
+          experiance: 1
+        },
+        {
+          firstName: "FirstName2",
+          lastName: "LastName2",
+          experiance: 4
+        }
+      ]
+    }){
+      id,
+      courseName
+    }
+  }

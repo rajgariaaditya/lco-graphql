@@ -1,0 +1,15 @@
+query{
+  getCourse(id: "3EcHJDibZPZ2p7Q1NEsk4"){
+    id,
+    teachingAssists{
+      experiance
+    }
+  }
+}
+
+query{
+  getAllCourse{
+    id,
+    courseName
+  }
+}

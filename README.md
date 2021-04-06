@@ -1,3 +1,7 @@
 # lco-graphql
-A standard babel setup
-Starter project setup for upcoming crash courses
+
+Tutorial: https://www.youtube.com/watch?v=_Zss2Mbz4Bs
+
+- Create Course
+- Get Course by ID
+- Get all Course

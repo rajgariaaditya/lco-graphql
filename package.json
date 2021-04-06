@@ -10,7 +10,7 @@
     "babel",
     "es6"
   ],
-  "author": "hitesh choudhary",
+  "author": "Aditya Rajgaria",
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -18,6 +18,10 @@
     "babel-preset-stage-0": "^6.24.1"
   },
   "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.5.0",
+    "nanoid": "^3.1.22",
     "nodemon": "^2.0.6"
   }
 }
